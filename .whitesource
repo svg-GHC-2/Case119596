@@ -31,7 +31,10 @@
     },
     "enableRenovate": true,
     "extends": [
-      "config:best-practices"
+      "config:recommended",
+      "docker:pinDigests",
+      "helpers:pinGitHubActionDigests",
+      ":pinDevDependencies"
     ]
   }
 }

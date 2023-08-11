@@ -31,10 +31,11 @@
     },
     "enableRenovate": true,
     "extends": [
-      "config:recommended",
-      "docker:pinDigests",
-      "helpers:pinGitHubActionDigests",
-      ":pinDevDependencies"
+      ":ignoreModulesAndTests",
+      ":prHourlyLimit2",
+      "group:monorepos",
+      "group:recommended",
+      "docker:disable"
     ]
   }
 }

@@ -29,7 +29,10 @@
     "enableRenovate": true,
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "extends": [
+      "config:base"
+    ]
   }
 }
 

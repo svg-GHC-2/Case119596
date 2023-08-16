@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/gin-gonic/gin v1.9.1
-	github.com/google/go-github/v53 v53.2.0
+	github.com/google/go-github/v54 v54.0.0
 	github.com/jfrog/jfrog-client-go v1.31.4
 	github.com/joho/godotenv v1.5.1
 	github.com/pkg/errors v0.9.1
